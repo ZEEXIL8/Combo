@@ -12,7 +12,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 # Get token from environment variable
-token = os.getenv('TELEGRAM_BOT_TOKEN', '7582994633:AAGqq3BeCKwSpQx19cTM7UU3w4NIohv7O9o')
+token = os.getenv('TELEGRAM_BOT_TOKEN', '8048215422:AAHALp3D7xJY48V3u-fT62fgFPKy0JqdRQM')
 
 if not token:
     raise ValueError("TELEGRAM_BOT_TOKEN environment variable is required!")
